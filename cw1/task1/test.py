@@ -100,6 +100,7 @@ print("final_array[16,45,61]", final_array[16,45,61]) #? max?
 
 '''
 
+""" 
 import numpy as np
 
 from scipy import ndimage
@@ -114,3 +115,9 @@ print("final_array[8,40,59]", final_array[8,40,59]) #1*0.5=0.5
 print("final_array[8,40,61]", final_array[8,40,61]) #1*2=2
 print("final_array[8,40,62]", final_array[8,40,62]) #1*2=2
 print("final_array[16,45,61]", final_array[16,45,61]) #? max?
+ """
+
+'''
+from skimage import io
+skimage.io
+'''

@@ -1,0 +1,2 @@
+pip install SimpleITK
+pip install pyvista

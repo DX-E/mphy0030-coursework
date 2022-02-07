@@ -1,6 +1,6 @@
 import numpy as np
 
-label_train00 = np.load('label_train00.npy')
+label_train00 = np.load('cw1/task1/label_train00.npy')
 
 def distance_transform_np (a, voxel_dementions):
     
@@ -59,4 +59,8 @@ print(standard_deviation)
 
 from skimage import io
 
-# io.imsave('local_logo.png', logo)
+io.imsave('distance_array_sc[7:9].png', distance_array_sc[7:9])
+io.imsave('distance_array_np[7:9].png', distance_array_np[7:9])
+io.imsave('distance_array_sc[16:18].png', distance_array_sc[16:18])
+io.imsave('distance_array_np[16:18].png', distance_array_np[16:18])
+io.imsave('origin.png', label_train00)
